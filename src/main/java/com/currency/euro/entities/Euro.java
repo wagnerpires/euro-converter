@@ -11,10 +11,10 @@ import java.time.LocalDateTime;
 
 @Getter
 @Setter
-@Entity
-@Table(name = "tb_euro")
 @NoArgsConstructor
 @AllArgsConstructor
+@Entity
+@Table(name = "tb_euro")
 public class Euro {
 
     @JsonProperty("code")
